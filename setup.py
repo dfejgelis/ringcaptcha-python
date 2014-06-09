@@ -1,9 +1,8 @@
-
 import os
 from setuptools import setup
+from ringcaptcha import VERSION
 
-REQUIREMENTS = [
-]
+REQUIREMENTS = []
 README = os.path.join(os.path.dirname(__file__), 'README.md')
 LONG_DESCRIPTION = open(README, 'r').read()
 CLASSIFIERS = [
