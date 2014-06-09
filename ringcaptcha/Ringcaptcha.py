@@ -18,7 +18,7 @@ class Ringcaptcha(object):
 
     RC_SERVER     = 'api.ringcaptcha.com'
     USER_AGENT    = 'ringcaptcha-php/1.0'
-    VERSION       = '1.0';
+    VERSION       = '1.0'
     
     def __init__(self, appKey, secretKey):
         self.appKey = appKey
